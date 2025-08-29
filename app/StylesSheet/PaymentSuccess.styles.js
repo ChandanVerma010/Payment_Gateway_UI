@@ -1,0 +1,105 @@
+import { StyleSheet } from 'react-native';
+
+export const paymentSuccessStyles = StyleSheet.create({
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalCard: {
+    width: '90%',
+    maxWidth: 500,
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    padding: 24,
+    position: 'relative',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+    elevation: 10,
+  },
+  closeButton: {
+    position: 'absolute',
+    top: 15,
+    right: 15,
+  },
+  successTitle: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 10,
+    marginBottom: 5,
+  },
+  successSubtitle: {
+    fontSize: 16,
+    color: '#555',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  successCheckContainer: {
+    padding: 10,
+    backgroundColor: '#E8F5E9',
+    borderRadius: 50,
+    marginBottom: 20,
+  },
+  receiptNote: {
+    backgroundColor: '#F0F0F0',
+    borderRadius: 10,
+    padding: 12,
+    marginTop: 10,
+    marginBottom: 20,
+  },
+  noteText: {
+    fontSize: 14,
+    color: '#555',
+    textAlign: 'center',
+  },
+  subscriptionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  subscriptionRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
+    marginBottom: 8,
+  },
+  subscriptionLabel: {
+    fontSize: 16,
+    color: '#555',
+  },
+  subscriptionValue: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  modalButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
+    marginTop: 20,
+  },
+  continueButton: {
+    backgroundColor: '#007BFF',
+    borderRadius: 10,
+    padding: 16,
+    flex: 1,
+    alignItems: 'center',
+    marginRight: 10,
+  },
+  downloadButton: {
+    backgroundColor: '#E7613C',
+    borderRadius: 10,
+    padding: 16,
+    flex: 1,
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+});
